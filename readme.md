@@ -13,7 +13,7 @@
 * [UploadVuln](uploadvlun/uploadvuln.md)
 * [XXE](xxe/xxe.md)
 * [OpenRedirect](opendirect/opendirect.md)
-* [Dos](dos/dos.md)
+* [DoS](dos/dos.md)
 * [SQLi](sqli/sqli.md)
 * [InformationDisclosure](informationdisclosure/informationdisclosure.md)
 * [LFD](lfd/lfd.md)
