@@ -29,17 +29,17 @@ Google Code-in是由 Google 主办的面向学生的在线编程竞赛
 没有回显，但是某一天iPhone 上的ProtonMail收件箱收到的邮件发现了xss  
 所以 iOS 上的ProtonMail应用程序没有过滤掉 <script> 标签。  
 
-8. [**关于我的第一个漏洞赏金的故事**](https://medium.com/@sudhanshur705/story-about-my-first-bug-bounty-9fe710be8241)  
-1.ucweb.com下xss
-https://sudhanshur705.medium.com/story-about-my-first-bug-bounty-9fe710be8241
-https://virustotal.com找到阿里巴巴子域samsung.ucweb.com访问403
-通过site:samsung.ucweb.com找到http://samsung.ucweb.com/webstore/classify.html?dataKey=LifeStyle&title=LifeStyle
-title注入xss的payload形成xss
-2.修复后查找xss
-修复后删除了端点访问404
-尝试目录爆破发现/test/目录
-发现http://samsung.ucweb.com/test/classify.html?dataKey=New&title=
-同样存在xss
+8. [**关于我的第一个漏洞赏金的故事**](https://medium.com/@sudhanshur705/story-about-my-first-bug-bounty-9fe710be8241)   
+1.ucweb.com下xss  
+https://sudhanshur705.medium.com/story-about-my-first-bug-bounty-9fe710be8241  
+https://virustotal.com找到阿里巴巴子域samsung.ucweb.com访问403  
+通过site:samsung.ucweb.com找到http://samsung.ucweb.com/webstore/classify.html?dataKey=LifeStyle&title=LifeStyle  
+title注入xss的payload形成xss  
+2.修复后查找xss  
+修复后删除了端点访问404  
+尝试目录爆破发现/test/目录   
+发现http://samsung.ucweb.com/test/classify.html?dataKey=New&title=  
+同样存在xss  
 
 9. [**存储 Xss 的故事**](https://medium.com/@hossainwalid93/story-of-store-xss-d24c3ab862f0)  
 显示名称设置为 TEST”><svg onload=alert(1)// 并创建了帐户  
