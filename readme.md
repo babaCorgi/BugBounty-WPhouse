@@ -14,7 +14,7 @@
 * [RCE](rce/rce.md)
 * [SQLi](sqli/sqli.md)
 * [SSRF](ssrf/ssrf.md)
-* [UploadVuln](uploadvlun/uploadvuln.md)
+* [UploadVuln](uploadvuln/uploadvuln.md)
 * [XSS](xss/xss.md)
 * [XXE](xxe/xxe.md)
 * [Other](other/other.md)
