@@ -1,13 +1,13 @@
 # ATO
 账户接管(ATO)案例合集  
 仅供参考
-## 索引及其简述
+## :ledger: 索引及其简述
 1. [**价值 800 万印尼盾的 Tokopedia 账户接管漏洞**](https://ironfisto.medium.com/tokopedia-account-takeover-bug-worth-8-million-idr-5474cb5b5cc9)  
 重置密码处输入受害者密码获取重置链接
 https://accounts.tokopedia.com/otp/c/page?otp_type=132& email=ezgcmmfgc%40champmails.com&ld=https://account s.tokopedia.com/resetpassword?e=ZXpnY21tZmdjQGNoYW1wbWFpbHMuY29t  
 添加&otpcode=000000实现了账户接管
 
-2. [**#BugBounty —“用户帐户接管-我只需要您的电子邮件 ID 即可登录您的购物门户帐户”**](https://logicbomb.medium.com/bugbounty-user-account-takeover-i-just-need-your-email-id-to-login-into-your-shopping-portal-7fd4fdd6dd56)  
+2. [**#BugBounty —“用户帐户接管-我只需要您的电子邮件 ID 即可登录您的购物门户帐户”**](https://logicbomb.medium.com/bugbounty-user-account-takeover-i-just-need-your-email-id-to-login-into-your-shopping-portal-7fd4fdd6dd56)
 第三方oauth2登录，某post包只验证回调token或emailID中的一个  
 导致emailID越权从而登录他人账户。  
 
