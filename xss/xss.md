@@ -19,7 +19,6 @@ AngularJSXss使用模板注入{{4*4}}反映16表示存在
 5. [**由于不正确转义的 JSON 数据，XSSing Google Code-in**](https://websecblog.com/vulns/google-code-in-xss/)  
 Google Code-in是由 Google 主办的面向学生的在线编程竞赛  
 注册字段存在self-xss和评论字段也存在xss  
-<script>像这样的元素将无法通过 CSP，  
 使用{{constructor.constructor('alert("xss")')()}}执行AngularJS  
 
 6. [**我的第一篇错误赏金文章**](https://medium.com/@sampanna/self-xss-in-indeed-com-e0c99c104cba)  
