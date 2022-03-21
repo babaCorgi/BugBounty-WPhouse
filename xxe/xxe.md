@@ -12,13 +12,11 @@ XML外部实体注入(XXE)案例合集
 尝试burp的 Collaborator外带测试，发现只收到dns请求，http请求被防火墙过滤  
 通过回显发现盲xxe，结合github发现的内部服务可能存在jira的ssrf漏洞  
 发现传入http请求，随后结合外部实体调用回显本地文件  
-使用:绕过/etc/passwd显示不全  
-<!ENTITY % ent "<!ENTITY data SYSTEM ':%file;'>">  
+使用:绕过/etc/passwd显示不全   
 
 3. [**Prince v10 及以下版本中的 XSS 到 XXE (CVE-2018-19858)**](https://www.corben.io/XSS-to-XXE-in-Prince/)  
 Prince，这是一种将“HTML、XHTML 或许多基于 XML 的文档格式之一”转换为 PDF 的软件。  
-由于存在xss导致可通过pdf生成xxe泄露本地文件数据  
-<iframe src="http://<server>/xxe.xml">  
+由于存在xss导致可通过pdf生成xxe泄露本地文件数据<iframe src="http://<server>/xxe.xml">  
 
 4. [**SAP 中一个有趣的 XXE**](https://medium.com/@zain.sabahat/an-interesting-xxe-in-sap-8b35fec6ef33)  
 发现一个POST请求/sap/cpa/api/getSolutions传递了XML  
