@@ -1,7 +1,7 @@
 # BugBounty-WPhouse
 📝主要为最近阅读案例的bugbounty的相关简述归档  
-✏️方便查找和二次阅读 
-🖊️漏洞挖掘，红蓝攻防，渗透，web安全仅供参考。
+✏️方便查找和二次阅读    
+🖊️漏洞挖掘，红蓝攻防，渗透，web安全仅供参考   
 ## :blue_book: 内容索引：
 * [ATO](ato/ato.md)
 * [CSRF](csrf/csrf.md)
